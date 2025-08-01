@@ -8,7 +8,7 @@ The robot uses a **laser-based control strategy** to navigate through a fixed ro
 
 ### 📷 Figure 1 - Laser-Based Control Strategy
 
-![Figure 1](path/to/your_diagram1.png)
+![Laser-Based Strategy](images/laser_strategy_diagram.png)
 
 - **Reddish-pink lines**: Laser detection range
 - **Blue circles**: Artificial landmarks (used like beacons)
@@ -62,7 +62,7 @@ This program is implemented using **ROS2 (in C++)**, utilizing modular node-base
 
 > The robot navigated through all waypoints accurately and reached the charging point.
 
-![Figure 2 - Robot Trajectory](path/to/trajectory_plot.png)
+![Robot Trajectory](images/trajectory_plot.png)
 
 Although the path was manually designed, the robot successfully adjusted at each stage using environmental cues.
 
@@ -70,7 +70,7 @@ Although the path was manually designed, the robot successfully adjusted at each
 
 ### 📈 Velocity vs. Time
 
-![Figure 3 - Velocity-Time Graph](path/to/velocity_graph.png)
+![Velocity Graph](images/velocity_graph.png)
 
 - Straight-line regions = constant forward motion  
 - Cluttered line = turning behavior  
@@ -82,7 +82,7 @@ Although the path was manually designed, the robot successfully adjusted at each
 
 > Map created dynamically using real-time laser data
 
-![Figure 4 - Environment Mapping](path/to/map_output.png)
+![Environment Map](images/environment_map.png)
 
 - Walls and four central pillars detected
 - Partial coverage due to limited scan field (front-facing only)
