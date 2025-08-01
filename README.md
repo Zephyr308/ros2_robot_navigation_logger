@@ -40,16 +40,6 @@ A reactive ROS2 node that navigates a mobile robot using laser scan and odometry
 
 ---
 
-### 🛠️ Building the Package
-
-Assuming you're inside a ROS2 workspace (e.g., `~/ros2_ws`):
-
-```bash
-cd ~/ros2_ws/src
-git clone https://github.com/YOUR_USERNAME/ros2_robot_navigation_logger.git
-cd ..
-colcon build --packages-select stopper
-source install/setup.bash
 
 ## 🧾 CSV Output Format
 
