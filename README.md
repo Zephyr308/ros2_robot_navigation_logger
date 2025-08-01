@@ -20,3 +20,4 @@ This package contains:
 - [✨ Features](docs/features.md)
 - [🚀 Usage & Setup](docs/usage.md)
 - [📂 CSV Output Format](docs/csv_format.md)
+- [📊 Technical Overview](docs/technical_overview.md)
