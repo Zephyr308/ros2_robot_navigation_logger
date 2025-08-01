@@ -82,7 +82,7 @@ Although the path was manually designed, the robot successfully adjusted at each
 
 > Map created dynamically using real-time laser data
 
-![Environment Map](images/environment_map.png)
+![Environment Map](images/map_output.png)
 
 - Walls and four central pillars detected
 - Partial coverage due to limited scan field (front-facing only)
